@@ -1,0 +1,38 @@
+{
+	"id": "054704f2-b9b5-4990-ab5f-72a20658debe",
+	"name": "Node Notes App",
+	"description": "Never miss a thing in Life. Take notes quickly. Organize and keep track of all your notes.",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"06f1c12b-c2a4-4c3f-854c-dcd9da8ae384"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "06f1c12b-c2a4-4c3f-854c-dcd9da8ae384",
+			"name": "Create Note",
+			"url": "{{base_url}}/notes",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"title\": \"My First Note\",\n\t\"content\": \"Hello this is my first note in node application\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		}
+	]
+}
