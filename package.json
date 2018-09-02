@@ -1,0 +1,11 @@
+{
+  "name": "node_notes_app",
+  "version": "1.0.0",
+  "description": "Never miss a thing in Life. Take notes quickly. Organize and keep track of all your notes.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jazib Bashir",
+  "license": "ISC"
+}
